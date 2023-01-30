@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card:hover > .image::after,
+    .card:hover > .content {
+        @apply opacity-100;
+    }
+}
